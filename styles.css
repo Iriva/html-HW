@@ -1,0 +1,51 @@
+/* Скидання стандартних відступів */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Стилі для всього сайту */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+/* Контейнер для карток */
+.container {
+    display: flex;
+    gap: 20px; /* Відстань між картками */
+    justify-content: center;
+}
+
+/* Стилі для картки */
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Стилі для зображення */
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Стилі для заголовка */
+.card h3 {
+    margin: 10px 0;
+}
+
+/* Стилі для опису */
+.card p {
+    color: #555;
+}
